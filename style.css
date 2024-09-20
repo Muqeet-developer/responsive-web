@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+}
+ ul ,li{
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+}
+header i{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.card{
+    margin-top: 20px;
+    margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+body{
+    background-color: gray;
+}
+.carousel-item {
+    margin-top: 1.0px;
+}
+.About{
+    margin-top:  35%;
+    text-align: center;
+    display: block;
+}
+.about-contant {
+    background-color: white;
+    width: 90%;
+}
+.about-contant img{
+    margin-right: 500px;
+    display: flex;
+    height: 300px;
+
+} 
+
+.about-contant p{
+    text-align: justify;
+    float: right;
+    margin-top: -299px;
+}
